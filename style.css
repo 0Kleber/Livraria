@@ -1,0 +1,78 @@
+h1, h3{
+    color: #F5F1E8;
+}
+
+h2{
+    color: #2B2B2B;
+}
+
+.menu{
+    grid-column: span 1;
+    text-align: right;
+    margin-right: 10%;
+}
+
+.cabecalho{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.logo{
+    grid-column: span 3;
+}
+
+.banner{
+    width: 300px;
+    margin: auto;
+}
+
+.destaques{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #F5F1E8;
+    align-items: center;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(43, 33, 33);
+    text-align: center;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+.cabecalho, footer{
+    background-color: #4A6B4A;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+main{
+    flex: 1 ;
+    background-color: #FFFFFF;
+}
+
+#livro_1{
+    height: 180px;
+    width: 150px;
+}
+
+.book_box{
+    text-align: center;
+    margin-top: 6%;
+}
+
+#preco{
+    color: #D4A23A;
+}
