@@ -2,13 +2,16 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Livraria independente. Vende livros impressos e e-books." >
+    <meta name="keywords" content="Arte, Artesanato.">
+    <meta name="author" content="Seu Naka">
     <title>Livraria Página Viva</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="cabecalho">
+    <nav class="cabecalho">
         <div class="logo">
             <h1>Página Viva</h1>
         </div>
@@ -19,51 +22,53 @@
             <a href="">Contato</a>    
             
         </div>    
-    </div>
+    </nav>
     
     <main>
         <hr>
         <div class="banner">
-            <img id="banne" src="imgs/BANNER.jpg" alt="banner">
+            <img id="img_banner" src="imgs/BANNER.jpg" alt="banner">
         </div>
 
         <hr>
 
-        <div class="dest">
+        <div id="dest">
             <h1 id="dest">Destaques</h1>
             <div class="destaques">   
-                <div class="book_box">
+                <section class="book_box">
                     <img id="livro_1" src="imgs/harry-potter-e-a-pedra-filosofal.jpg" alt="imagem livro">
                     <h2 id="titulo">Harry Potter e a Pedra Filosofal</h2>
                     <h3 id="preco">R$ 49,99</h3>
+                    <hr id="linha">
                     
-                </div>
+                </section>
                 
-                <div class="book_box">
+                <section class="book_box">
                     <img id="livro_1" src="imgs/harry-potter-e-a-camara-secreta.jpg" alt="imagem livro">
                     <h2 id="titulo">Harry Potter e a Câmara Secreta</h2>
                     <h3 id="preco">R$ 49,99</h3>
-                </div>
+                    <hr id="linha">
+                </section>
 
-                <div class="book_box">
+                <section class="book_box">
                     <img id="livro_1" src="imgs/o-sonho-de-um-homem-ridiculo.jpg" alt="imagem livro">
                     <h2 id="titulo">O Sonho De Um Homem Ridiculo</h2>
                     <h3 id="preco">R$ 69,99</h3>
-                    
-                </div>
+                    <hr id="linha">
+                </section>
 
-                <div class="book_box">
+                <section class="book_box">
                     <img id="livro_1" src="imgs/jogador-numero-1.jpg" alt="imagem livro">
                     <h2 id="titulo">Jogador Número 1</h2>
                     <h3 id="preco">R$ 39,99</h3>
-                    
-                </div>
+                    <hr id="linha">
+                </section>
             </div>
         </div>
-        <hr>
     </main>
-
+    
     <footer class="footer">
+        <hr>
         
         <h3> &#128233; contato@pagina-viva.com.br &#x1F4CD;<a href="">@aginaViva</a></h3>
         <h3>&copy; 2026 Livraria Página Viva - Goiania/GO</h3>

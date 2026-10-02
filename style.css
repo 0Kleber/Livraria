@@ -33,8 +33,9 @@ h2{
 
 }
 
-#banne{
+#img_banner{
     border-radius: 20px;
+    max-width: 100%;
 }
 
 .destaques{
@@ -87,7 +88,7 @@ main{
 
 #preco{
     color: #D4A23A;
-    margin-top: -20px;
+    /* margin-top: -29px; */
 }
 
 #titulo{
@@ -102,7 +103,7 @@ a{
     color: #c3dac3;
 }
 
-.dest{
+#dest{
     display: grid;
     text-align: center;
     background-color: rgb(233, 229, 210);
@@ -111,4 +112,47 @@ a{
 #dest{
     color: #2B2B2B;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr{
+    margin-top: 0rem;
+    margin-bottom: 0.5rem;
+}
+
+#linha{
+    margin: 0;
+    color: rgb(233, 229, 210);
+}
+
+@media (max-width: 800px){
+
+    #img_banner{
+        height: 400px;
+        width: 800px;
+        max-width: 100%;
+    }
+    
+    .menu{
+        display: grid;
+        font-size: 30px;
+    }
+
+    a{
+        display: inline;
+        margin-bottom: 12px;
+    }
+    
+    .destaques{
+        display: block;
+        max-width: 100%;
+    }
+
+    #dest{
+        display: grid;
+        max-width: 100%;
+        text-align: center;
+    }
+
+
+
 }
